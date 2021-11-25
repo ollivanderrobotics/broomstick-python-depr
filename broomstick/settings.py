@@ -27,9 +27,10 @@ SECRET_KEY = 'django-insecure-lzskkce0d2&4v=$3-i#=bk-!nncjs#=g^=x5desaa!t3%egtjn
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
+CORS_ALLOW_ALL_ORIGINS = True
 ALLOWED_HOSTS = ['https://broomstick-2ede4.web.app']
 
-CORS_ALLOW_ALL_ORIGINS = True
+
 # Application definition
 
 INSTALLED_APPS = [
