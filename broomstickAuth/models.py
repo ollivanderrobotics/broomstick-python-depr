@@ -1,6 +1,6 @@
 from django.db import models
 
-# Create your models here.
+# Create your models here
 class Note(models.Model):
     productName = models.CharField(max_length=50, default="")
     companyName = models.CharField(max_length=50, default="")
