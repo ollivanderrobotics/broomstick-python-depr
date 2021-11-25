@@ -25,10 +25,10 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-lzskkce0d2&4v=$3-i#=bk-!nncjs#=g^=x5desaa!t3%egtjn'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-# DEBUG = True
+DEBUG = True
 
 CORS_ALLOW_ALL_ORIGINS = True
-ALLOWED_HOSTS = ['https://broomstick-2ede4.web.app']
+ALLOWED_HOSTS = []
 
 
 # Application definition
