@@ -28,7 +28,7 @@ SECRET_KEY = 'django-insecure-lzskkce0d2&4v=$3-i#=bk-!nncjs#=g^=x5desaa!t3%egtjn
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    'https://broomstick-2ede4.web.app/'
+    'https://broomstick-2ede4.web.app'
 ]
 
 
