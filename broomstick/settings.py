@@ -7,7 +7,7 @@ For more information on this file, see
 https://docs.djangoproject.com/en/3.2/topics/settings/
 
 For the full list of settings and their values, see
-https://docs.djangoproject.com/en/3.2/ref/settings
+https://docs.djangoproject.com/en/3.2/ref/settings/
 """
 
 import os
@@ -25,13 +25,12 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-lzskkce0d2&4v=$3-i#=bk-!nncjs#=g^=x5desaa!t3%egtjn'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-# DEBUG = False
-
-
-ALLOWED_HOSTS = ['*']
+DEBUG = True
 
 CORS_ALLOW_ALL_ORIGINS = True
-CORS_ALLOW_CREDENTIALS = True
+ALLOWED_HOSTS = ['*']
+
+
 # Application definition
 
 INSTALLED_APPS = [
@@ -42,8 +41,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'rest_framework',
-    'corsheaders',
     'broomstickAuth',
+    'corsheaders',
 ]
 
 MIDDLEWARE = [
